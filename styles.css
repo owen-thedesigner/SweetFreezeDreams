@@ -1,0 +1,742 @@
+:root {
+  --primary-color: #ff4081;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  background: #fffdfd;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.cta-btn, .text-me-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode nav,
+body.dark-mode .cta-btn,
+body.dark-mode .product-item,
+body.dark-mode .contact,
+body.dark-mode footer {
+  background-color: #333;
+}
+
+body.dark-mode a {
+  color: #ffeb3b;
+}
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: white;
+}
+
+body.dark-mode nav a {
+  color: white;
+}
+
+.cta-btn, .text-me-btn, .product-item {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.toggles {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+body.dark-mode .cta-btn {
+  background-color: #333;
+  color: #ff4081;
+}
+
+body.dark-mode .product-item {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+body.dark-mode .text-me-btn {
+  background-color: #34c759;
+}
+
+body.dark-mode footer {
+  background-color: #222;
+  color: white;
+}
+
+/* Add other styles as needed... */
+:root {
+  --primary-color: #ff4081; /* Default color (pink/purple) */
+}
+
+/* Use the primary color where needed */
+nav {
+  background-color: var(--primary-color);
+}
+
+.cta-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.text-me-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.nav-container h1,
+.nav-container a {
+  color: white;
+}
+
+.nav-container a:hover {
+  color: #ffeb3b;
+}
+
+
+/* Base styles */
+body {
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  background: #fffdfd;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode a {
+  color: #ffeb3b;
+}
+
+body.dark-mode nav {
+  background-color: #333;
+}
+
+body.dark-mode .cta-btn {
+  background-color: #333;
+  color: #ff4081;
+}
+
+body.dark-mode .product-item {
+  background-color: #1a1a1a; /* Darker background for products */
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+body.dark-mode .product-item:hover {
+  background-color: #444;
+}
+
+body.dark-mode .hero {
+  background: linear-gradient(90deg, #333, #555);
+}
+
+body.dark-mode footer {
+  background-color: #222;
+}
+
+body.dark-mode .text-me-btn {
+  background-color: #34c759;
+}
+
+body.dark-mode .cta-btn:hover {
+  background-color: #444;
+}
+
+/* Contact Section Dark Mode */
+body.dark-mode .contact {
+  background-color: #000; /* Black background for Contact Me section */
+}
+
+body.dark-mode .contact h2, 
+body.dark-mode .contact p, 
+body.dark-mode .contact-details {
+  color: #fff; /* Ensure contact section text is white in dark mode */
+}
+
+/* Product item active state */
+body.dark-mode .product-item.active {
+  background-color: #444;
+}
+
+/* Button to toggle dark mode and color change */
+.toggles {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-btn, .dark-mode-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover, .dark-mode-btn:hover {
+  background-color: #e6366b;
+}
+
+/* Color Theme changes */
+:root {
+  --primary-color: #ff4081; /* Default pink color */
+}
+
+/* Update color theme dynamically */
+body {
+  background: #fffdfd;
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+nav {
+  background-color: var(--primary-color);
+}
+
+.cta-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.text-me-btn {
+  background-color: var(--primary-color);
+}
+
+
+
+/* Button to toggle dark mode and color change */
+.toggles {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-btn, .dark-mode-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover, .dark-mode-btn:hover {
+  background-color: #e6366b;
+}
+
+/* Other styles remain the same */
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  background: #fffdfd;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: #ff4081;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-container h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-container li {
+  margin-left: 20px;
+}
+
+.nav-container li a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.nav-container li a:hover {
+  color: #ffeb3b;
+}
+
+.hero {
+  background: linear-gradient(90deg, #ff4081, #ffeb3b);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: white;
+  color: #ff4081;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #fff4f8;
+  transform: scale(1.05);
+}
+
+.products {
+  padding: 60px 20px;
+  background: #fdfcff;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ff4081;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-item {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 240px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.product-item:hover {
+  transform: translateY(-8px);
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-item h3 {
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+
+.product-item p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.product-details {
+  display: none;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.product-item.active .product-details {
+  display: block;
+}
+
+.contact {
+  padding: 60px 20px;
+  background: #ffedcc;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff4081;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+form {
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #ff4081;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #e6366b;
+}
+
+.text-me-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #34c759;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.text-me-btn:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .product-list {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .product-item {
+      width: 90%;
+  }
+
+  .hero h2 {
+      font-size: 2.2rem;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode a {
+  color: #ffeb3b;
+}
+
+body.dark-mode nav {
+  background-color: #333;
+}
+
+body.dark-mode .cta-btn {
+  background-color: #333;
+  color: #ff4081;
+}
+
+body.dark-mode .product-item {
+  background-color: #1a1a1a; /* Darker background for products */
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+body.dark-mode .product-item:hover {
+  background-color: #444;
+}
+
+body.dark-mode .hero {
+  background: linear-gradient(90deg, #333, #555);
+}
+
+body.dark-mode footer {
+  background-color: #222;
+}
+
+body.dark-mode .text-me-btn {
+  background-color: #34c759;
+}
+
+body.dark-mode .cta-btn:hover {
+  background-color: #444;
+}
+
+body.dark-mode .contact h2, 
+body.dark-mode .contact p, 
+body.dark-mode .contact-details {
+  color: #fff; /* Fix contact section visibility */
+}
+
+/* Product item active state */
+body.dark-mode .product-item.active {
+  background-color: #444;
+}
+
+/* Button to toggle dark mode and color change */
+.toggles {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-btn, .dark-mode-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover, .dark-mode-btn:hover {
+  background-color: #e6366b;
+}
+:root {
+  --primary-color: #ff4081; /* Default primary color */
+}
+
+/* Update color theme dynamically */
+body {
+  background: #fffdfd;
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+nav {
+  background-color: var(--primary-color);
+}
+
+.cta-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.text-me-btn {
+  background-color: var(--primary-color);
+}
+body.dark-mode .contact {
+  background-color: #000;
+  color: white;
+}
+
+body.dark-mode .contact h2,
+body.dark-mode .contact p,
+body.dark-mode .contact-details p {
+  color: white;
+}
+body, nav, .hero, .products, .contact, footer {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.cta-btn, .text-me-btn, .product-item {
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+}
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-btn:hover {
+  transform: scale(1.2);
+}
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+nav a, h2, h3, .cta-btn, .text-me-btn {
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+nav a, h2, h3, .cta-btn, .text-me-btn {
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+nav a {
+  color: white !important;
+}
+
+nav a:hover {
+  color: #ffeb3b !important; /* or white if you want it to stay white on hover too */
+}
+.nav-container a {
+  color: white !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.color-btn.active {
+  border: 2px solid #fff;
+  box-shadow: 0 0 8px 2px #fff;
+}
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.color-btn.selected {
+  box-shadow: 0 0 10px 5px white;
+  transform: scale(1.1); /* Slightly enlarge the selected button */
+}
